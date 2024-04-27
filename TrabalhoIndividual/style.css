@@ -1,20 +1,90 @@
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.photo {
-    overflow: hidden;
-    border-radius: 8px;
+header {
+    background-color: #333;
+    color: #e4e4e4;
+    padding: 20px;
+    text-align: center;
 }
 
-.photo img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
+section {
+    padding: 80px;
 }
 
-.photo:hover img {
-    transform: scale(1.1);
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(./assets/stadium-3d-rendering-600nw-1015478956.webp);
+    padding-right: 15rem;
+    padding-left: 15rem;
+        
+}
+
+.imagens img {
+    width: 150px;
+    height: 150px;
+
+}
+
+.card {
+    display: flex; 
+    flex-direction: column;
+    background-color: #09a57e;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    margin-top: 2rem;
+}
+
+.sobre-mim {
+    background-color: #f4f4f4;
+}
+
+footer {
+    background-color: #000000;
+    color: #999797;
+    padding: 20px;
+    text-align: center;
+}
+section class{
+    background-color:aquamarine;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #424242;
+    text-decoration: none;
+}
+footer ul li a {
+    color: #424242;
+    text-decoration: none;
+}
+
+
+.foto {
+    display: flex;
+    gap: 12px;
+    
+}
+
+.foto img {
+    width: 150px;
+    height: 150px;
 }
